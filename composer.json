@@ -1,0 +1,26 @@
+{
+  "name": "comphp/notifications-browser",
+  "type": "library",
+  "description": "Notification Driver for CommonPHP that sends notifications to the browser",
+  "license": "MIT",
+  "version": "0.3",
+  "autoload": {
+    "psr-4": {
+      "CommonPHP\\Drivers\\Notifications\\Browser\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CommonPHP\\Drivers\\Notifications\\Browser\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.5",
+    "comphp/notifications": "^0.3",
+    "twig/twig": "^3.24"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^13.1",
+    "friendsofphp/php-cs-fixer": "^3.95"
+  }
+}
